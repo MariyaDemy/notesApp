@@ -5,7 +5,7 @@ import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom'; //H
 
 function App() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <div className="container">
         <div className='app'>
           <h1 className='app__header'>Notes App</h1>
@@ -15,7 +15,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </HashRouter >
+    </BrowserRouter >
   );
 }
 
