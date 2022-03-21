@@ -1,11 +1,11 @@
 import './App.scss';
 import NotePage from './pages/NotePage';
 import NotesListPage from './pages/NotesListPage';
-import { BrowserRouter, Route, Routes } from 'react-router-dom'; //HashRouter for github pages
+import { BrowserRouter, HashRouter, Route, Routes } from 'react-router-dom'; //HashRouter for github pages
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="container">
         <div className='app'>
           <h1 className='app__header'>Notes App</h1>
@@ -15,7 +15,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </BrowserRouter >
+    </HashRouter >
   );
 }
 
